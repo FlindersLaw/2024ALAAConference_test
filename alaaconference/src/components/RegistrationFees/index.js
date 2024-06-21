@@ -26,8 +26,8 @@ const FeeInfoList = [
       <>
       <table className='registrationFeeTable'>
           <tr>
-              <th>Early Bird registration</th>
-              <td>$250.00</td>
+              <th><del>Early Bird registration</del></th>
+              <td><del>$250.00</del></td>
           </tr>
           <tr>
               <th>Regular Registration</th>
@@ -35,8 +35,7 @@ const FeeInfoList = [
           </tr>
       </table>
       <p>
-      Early bird registration is now open and closes
-      on <strong>17&nbsp;May 2024</strong>.
+      <strong>REGISTRATIONS CLOSE on 20 June 2024</strong>
       </p>
       </>
     ),
@@ -53,7 +52,7 @@ const FeeInfoList = [
       </table>
       <p>
         The Gala dinner will be held on the evening of <strong>4&nbsp;July 2024</strong> at the
-        Adelaide Convention Centre.
+        Stamford Plaza Hotel.
       </p>
       <p>
         If you have not yet registered for the 

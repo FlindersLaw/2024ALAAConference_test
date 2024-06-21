@@ -70,7 +70,6 @@ export function CSRow({sessionKeys}) {
         // Constsruct the AbstractURL
         const abstractURL = `${abstractURLBase}/${csNumber}/${absNumber}`
         theSessions[sKey].abstractURL = useBaseUrl(abstractURL);
-        console.log("theSessions", theSessions);
     })
     return (
         <>

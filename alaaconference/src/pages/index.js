@@ -38,6 +38,9 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <RegisterButton registerURL='/registration' buttonText='ALAA 2024 Conference Registration' />
+        <p style={{textAlign: "center"}}>
+          <strong>REGISTRATION CLOSES 20 JUNE 2024</strong>
+        </p>
         <HomepageFeatures />
         <HomepageSponsors />
       </main>

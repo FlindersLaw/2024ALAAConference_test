@@ -20,9 +20,9 @@ const config = {
 
   // For GitHub pages deployment, it is often '/<projectName>/'
   url: 'https://flinderslaw.github.io/',
-  baseUrl: '/2024ALAAConference_test',
+  baseUrl: '/2024ALAAConference',
   organizationName: 'FlindersLaw', // Usually your GitHub org/user name.
-  projectName: '2024ALAAConference_test', // Usually your repo name.
+  projectName: '2024ALAAConference', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -92,6 +92,11 @@ const config = {
             label: 'Program and Conference Material',
             to: '/docs',
             position: 'left'
+          },
+          {
+            label: 'FAQ',
+            to: '/faq',
+            position: 'left',
           },
           {
             type: 'html',
